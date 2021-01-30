@@ -8,6 +8,7 @@ import ImageScreen from './src/screens/ImageScreen'
 import CounterScreen from "./src/screens/CounterScreen";
 import ColorScreen from "./src/screens/ColorScreen";
 import SquareScreen from './src/screens/SquareScreen';
+import SquareScreen2 from "./src/screens/SquareScreen2";
 
 const Stack = createStackNavigator();
 
@@ -21,7 +22,7 @@ function App() {
         <Stack.Screen name="ImageScreen" component={ImageScreen}/>
         <Stack.Screen name="CounterScreen" component={CounterScreen}/>
         <Stack.Screen name="ColorScreen" component={ColorScreen}/>
-        <Stack.Screen name="SquareScreen" component={SquareScreen}/>
+        <Stack.Screen name="SquareScreen" component={SquareScreen2}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
